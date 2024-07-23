@@ -1,5 +1,7 @@
 package org.productos.java.productos2826502.entities;
 
+
+
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Getter;
@@ -10,6 +12,8 @@ import lombok.Setter;
 @Getter
 @Setter
 @Builder
+@Entity
+@Table(name="products")
 public class Product {
 
     private Long id;
